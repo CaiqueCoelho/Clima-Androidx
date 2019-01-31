@@ -1,4 +1,4 @@
-package coelho.caique.clima.data.response
+package coelho.caique.clima.data.db.entity
 
 import com.google.gson.annotations.SerializedName
 
