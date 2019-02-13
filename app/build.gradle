@@ -17,6 +17,7 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
     }
     buildTypes {
         release {
@@ -89,5 +90,8 @@ dependencies {
 
     // New Material Design
     implementation "com.google.android.material:material:1.0.0"
+
+    // Multidex
+    implementation 'com.android.support:multidex:1.0.3'
 
 }
